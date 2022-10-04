@@ -103,9 +103,9 @@
   <project path="hardware/qcom-caf/msm8994/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-msm8994" />
   <project path="hardware/qcom-caf/msm8994/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.1-caf-msm8994" />
   <project path="hardware/qcom-caf/msm8994/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.1-caf-msm8994" />
-  <project path="hardware/qcom-caf/msm8996/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-msm8996" />
-  <project path="hardware/qcom-caf/msm8996/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.1-caf-msm8996" />
-  <project path="hardware/qcom-caf/msm8996/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.1-caf-msm8996" />
+  <project path="hardware/qcom-caf/msm8996/audio" name="hardware_qcom-caf_msm8996_audio" groups="qcom,qcom_audio,pdk-qcom" revision="10" remote="IDN-Labs" />
+  <project path="hardware/qcom-caf/msm8996/display" name="hardware_qcom-caf_msm8996_display" groups="pdk-qcom,qcom,qcom_display" revision="10" remote="IDN-Labs" />
+  <project path="hardware/qcom-caf/msm8996/media" name="hardware_qcom-caf_msm8996_media" groups="qcom,pdk-qcom" revision="10" remote="IDN-Labs" />
   <project path="hardware/qcom-caf/msm8998/audio" name="LineageOS/android_hardware_qcom_audio" groups="qcom,qcom_audio,pdk-qcom" revision="lineage-17.1-caf-msm8998" />
   <project path="hardware/qcom-caf/msm8998/display" name="LineageOS/android_hardware_qcom_display" groups="pdk-qcom,qcom,qcom_display" revision="lineage-17.1-caf-msm8998" />
   <project path="hardware/qcom-caf/msm8998/media" name="LineageOS/android_hardware_qcom_media" groups="qcom,pdk-qcom" revision="lineage-17.1-caf-msm8998" />

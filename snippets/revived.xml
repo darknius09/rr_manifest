@@ -16,33 +16,33 @@
   </project>
 
   <!-- Apps -->
-  <project path="packages/apps/Settings" name="Resurrection_packages_apps_Settings" remote="IDN-Labs" revision="Q" />
-  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="rr-r" />
-  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="rr-r" />
-  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="rr-r" />
-  <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="rr-r" />
-  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="rr-r" />
-  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="rr-r"/>
-  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="rr-r" />
-  <project path="packages/apps/SetupWizard" name="SetupWizard" remote="rr-r" />
+  <project path="packages/apps/Settings" name="Resurrection_packages_apps_Settings" remote="IDN-Labs" revision="Q" clone-depth="1" />
+  <project path="packages/apps/Contacts" name="packages_apps_Contacts" remote="rr-r" clone-depth="1" />
+  <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="rr-r" clone-depth="1" />
+  <project path="packages/apps/Messaging" name="packages_apps_Messaging" remote="rr-r" clone-depth="1" />
+  <project path="packages/apps/LineageParts" name="packages_apps_LineageParts" remote="rr-r" clone-depth="1" />
+  <project path="packages/apps/DeskClock" name="packages_apps_DeskClock" remote="rr-r" clone-depth="1" />
+  <project path="packages/apps/SettingsIntelligence" name="packages_apps_SettingsIntelligence" remote="rr-r" clone-depth="1" />
+  <project path="packages/apps/Bluetooth" name="packages_apps_Bluetooth" remote="rr-r" clone-depth="1" />
+  <project path="packages/apps/SetupWizard" name="SetupWizard" remote="rr-r" clone-depth="1" />
 
   <!-- Frameworks -->
-  <project path="frameworks/base" name="android_frameworks_base" remote="IDN-Labs" revision="Q" />
-  <project path="frameworks/av" name="frameworks_av" remote="rr-r" />
-  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="rr-r" />
-  <project path="frameworks/native" name="frameworks_native" remote="rr-r" />
+  <project path="frameworks/base" name="android_frameworks_base" remote="IDN-Labs" revision="Q" clone-depth="1" />
+  <project path="frameworks/av" name="frameworks_av" remote="rr-r" clone-depth="1" />
+  <project path="frameworks/opt/telephony" name="frameworks_opt_telephony" remote="rr-r" clone-depth="1" />
+  <project path="frameworks/native" name="frameworks_native" remote="rr-r" clone-depth="1" />
 
   <!-- SeLinux -->
-  <project path="system/sepolicy" name="system_sepolicy" remote="rr-r" />
+  <project path="system/sepolicy" name="system_sepolicy" remote="rr-r" clone-depth="1" />
 
   <!-- System -->
-  <project path="system/core" name="android_system_core" remote="rr-r" />
-  <project path="system/bt" name="android_system_bt" remote="rr-r" />
-  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="IDN-Labs" revision="Q" />
-  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="rr-r" />
-  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="rr-r" />
-  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="rr-r" />
+  <project path="system/core" name="android_system_core" remote="rr-r" clone-depth="1" />
+  <project path="system/bt" name="android_system_bt" remote="rr-r" clone-depth="1" />
+  <project path="vendor/qcom/opensource/commonsys/system/bt" name="android_vendor_qcom_opensource_system_bt" remote="IDN-Labs" revision="Q" clone-depth="1" />
+  <project path="packages/services/Telephony" name="packages_services_Telephony" remote="rr-r" clone-depth="1" />
+  <project path="packages/services/Telecomm" name="packages_services_Telecomm" remote="rr-r" clone-depth="1" />
+  <project path="packages/providers/MediaProvider" name="packages_providers_MediaProvider" remote="rr-r" clone-depth="1" />
 
   <!-- Vendor -->
-  <project path="vendor/rr" name="android_vendor_resurrection" remote="rr-r"/>
+  <project path="vendor/rr" name="android_vendor_resurrection" remote="rr-r" clone-depth="1" />
 </manifest>
